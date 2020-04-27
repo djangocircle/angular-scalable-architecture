@@ -1,0 +1,25 @@
+<div class="side-tabs bg-blue border-style">
+  <!-- required for floating -->
+  <!-- Nav tabs -->
+  <div class="avatar-upload">
+    <div class="avatar-edit">
+        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+        <label for="imageUpload"></label>
+    </div>
+    <div class="avatar-preview">
+        <div id="imagePreview" style="background-image: url(assets/images/1p.jpeg);">
+        </div>
+    </div>
+  </div>
+  <h4 class="text-center">Steven D.</h4>
+  <br>
+  <ul class="nav nav-tabs tabs-left ">
+    <li (click)="onMenuClick('profile')"><a href="#profile" data-toggle="tab" class="active show"><i class="fa fa-user"></i> My Profile</a></li>
+    <li (click)="onMenuClick('post')"><a href="#post" data-toggle="tab"><i class="fa fa-file-text"></i> Post an ads</a></li>
+    <li (click)="onMenuClick('reviewed')"><a href="#reviewed" data-toggle="tab"><i class="fa fa-file-o"></i> My Reviewed Essays </a></li>
+    <li (click)="onMenuClick('favorites')"><a href="#favorites" data-toggle="tab"><i class="fa fa-heart"></i>  My Favorites </a></li>
+    <li (click)="onMenuClick('messages')"><a href="#messages" data-toggle="tab"><i class="fa fa-comment-o"></i> Messages</a></li>
+    <li (click)="onMenuClick('payment')"><a href="#payment" data-toggle="tab"><i class="fa fa-credit-card"></i> Payment</a></li>
+    <li><a href="#"><i class="fa fa-unlock"></i> Logout</a></li>
+  </ul>
+</div>

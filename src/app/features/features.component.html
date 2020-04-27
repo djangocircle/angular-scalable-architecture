@@ -1,0 +1,26 @@
+<main id="tg-main" class="tg-main tg-haslayout pt-73">
+  <section class="user-profile py-5 bg-light">
+    <div class="container">
+        <div class="rider-dashbord">
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <app-side-navigation-panel (menuChangeListener)='menuChangeCallBack($event)'></app-side-navigation-panel>
+            </div>
+
+            <div class="col-lg-9 col-md-7">
+              <div class="tab-content bg-blue border-style">
+                <div class="profile-edit tab-pane active show bg-white p-3">
+                  <app-profile *ngIf="selectedMenu == 'profile'"></app-profile>
+                  <app-add-post *ngIf="selectedMenu == 'post'"></app-add-post>
+                  <app-messages *ngIf="selectedMenu == 'messages'"></app-messages>
+                  <app-review *ngIf="selectedMenu == 'reviewed'"></app-review>
+                  <app-favorites *ngIf="selectedMenu == 'favorites'"></app-favorites>
+                  <app-payment *ngIf="selectedMenu == 'payment'"></app-payment>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+</main>

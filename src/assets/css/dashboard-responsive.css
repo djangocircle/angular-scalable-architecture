@@ -1,0 +1,235 @@
+
+@media (min-width:992px) and (max-width:1199px){
+	.ps-profile-setting__content{padding: 30px 19px;}
+	.ps-messages__content ul figure {padding-left: 9px;}
+	.ps-messages__content ul .ps-messages__text {padding-left: 10px;}
+	.ps-messages__content ul .ps-dot:after{right: 9px;}
+	.ps-messages__area__right{padding-left: 26px;}
+	.ps-messages__area__left{padding-right: 26px;}
+	.ps-messages__description p{padding: 19px 0;}
+	.ps-user-product{margin-bottom: 9px;}
+	.ps-package h6, .ps-package h5{font-size: 1.096rem;}
+}
+@media (max-width:1199px){
+	.ps-dashboard--btn a:last-child {margin: 20px 0 0 0;}
+	.ps-dashboard--downbtn .ps-package-btn{margin-top: 20px;}
+}
+@media (max-width:991px){
+    .ps-navbar__header .collapse > ul .ps-header__line:first-child > a:after{display: none;}
+    .ps-footer__link{padding: 30px 0}
+    .ps-dashboard-img{display: none;}
+	.ps-dashboard-user > div{margin: 30px 0 0 0;}
+	.ps-dashboard-user .ps-dashboard--btn{margin: 10px 0 30px}
+	.ps-dashboard--btn a{margin: 20px 0 0}
+	.ps-package{margin-top: 30px}
+	.ps-package__expire{flex: 0 0 100%;}
+	.ps-package__time{flex: 0 0 25%;}
+}
+@media (max-width:900px){}
+@media (max-width:800px){}
+@media (max-width:767px){
+	.ps-messages__user{border-left: 0;}
+    .ps-account-save form{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+    .ps-account-setting .row >:last-child{margin-top: 25px}
+    .ps-posted-ads .ps-posted-ads__heading{padding: 20px 10px 20px 20px;}
+    .ps-posted-ads__heading h5{flex-basis: 50%}
+    .ps-posted-ads__heading button{margin: 10px 0 0 auto;}
+	.ps-posted-ads .ps-posted-ads__heading p{padding: 0}
+	.ps-current-package{padding: 29px 19px;}
+	.ps-buy-package .ps-package__expire{
+		align-items: start;
+		padding: 36px 20px;
+	}
+	.ps-buy-package__time .ps-package__time{flex: 0 0 50%;}
+	.ps-messages__description p{padding: 19px 0;}
+	.ps-user-product{margin-bottom: 9px;}
+	.ps-messages__user{display: none;}
+	.ps-messages__content ul,
+	.ps-message-user .ps-messages__user{flex: 0 0 100%;}
+	.ps-message-user .ps-messages__user__heading a:first-child{display: inline-block}
+	.ps-message-user ul{display: none}
+	.ps-message-user .ps-messages__user{display: grid}
+	.ps-profile--row{display: block}
+	.ps-posted-ads .ps-items-heading{display: none}
+	.ps-posted-ads ul li > div {
+		grid-template-columns: 1fr;
+		padding-right: 20px;
+	}
+	.ps-posted-ads ul li > div:before{grid-row: 1/4;}
+	.ps-posted-ads ul li > div > div{padding-top: 10px}
+	.ps-posted-ads__title > h6:first-child,
+	.ps-posted-ads__status > h6:first-child,
+	.ps-posted-ads__actions > h6:first-child{
+		display: block;
+		width: 100px;
+		padding-left: 20px
+	}
+	.ps-payments-content .ps-posted-ads__title > h6:first-child,
+	.ps-payments-content .ps-posted-ads__status > h6:first-child,
+	.ps-payments-content .ps-posted-ads__actions > h6:first-child{width: 120px}
+	.ps-posted-ads__title figure{padding: 0}
+	.ps-posted-ads__status,
+	.ps-posted-ads__actions{display: flex}
+	.ps-posted-ads__actions{padding-bottom: 10px;}
+	.ps-my-ads .ps-posted-ads__heading{padding: 0 10px 10px 20px}
+	.ps-main-form .ps-geo-location {width: 86.288%;}
+	.ps-main-form button, .ps-header-form .ps-form--cancel a {display: none;}
+	.ps-main-form .ps-icon, .ps-header-form .ps-form--cancel .ps-icon {display: inline-block;}
+	.ps-loading{margin-right: 10px;}
+}
+@media (max-width:640px){
+	.ps-navbar__userbtn{
+		flex: 100%;
+		margin-top: 10px;
+	}
+	/* .ps-navbar__header .ps-headeruser .ps-nav > li > a{margin-left: -20px} */
+	.ps-main-form {flex-direction: column;}
+	.ps-main-form .ps-form__input,
+	.ps-main-form .ps-form__input + div,
+	.ps-main-form .ps-geo-location{width: 100%;}
+	.ps-main-form .ps-form__input input{border-radius: 6px}
+	.ps-main-form .ps-form__input + div{margin-top: 10px}
+	.ps-main-form .ps-geo-location > input{
+		border: 1px solid #eee;
+		border-radius: 6px 0 0 6px;
+	}
+}
+@media (max-width:568px){
+	.ps-navbar__userbtn{align-self: end;}
+	.ps-profile-setting__uploadarea p:nth-child(2),
+	.ps-profile-setting__uploadarea p:nth-child(4){margin: 0 0 0 auto}
+	.ps-profile-setting__uploadarea div{width: 100%}
+	.ps-profile-setting__uploadarea svg,
+	.ps-profile-setting__uploadarea rect{height: 85px;}
+	.ps-loading{margin-right: 20px !important;}
+}
+@media (max-width:480px){
+    .ps-posted-ads__heading h5{flex-basis: unset}
+    .ps-posted-ads .ps-posted-ads__heading{
+		flex-direction: column;
+		align-items: center;
+	}
+    .ps-posted-ads .ps-posted-ads__heading p{margin: 0;}
+    .ps-posted-ads__heading button{margin: 10px 0 0;}
+    .ps-profile-setting__content{padding: 30px 10px;}
+    .ps-account-setting p{padding: 0}
+    .ps-comment--row{grid-template-columns: 1fr;}
+	.ps-header3-content h4{font-size: 1.9rem;}
+	.ps-header3-content p{font-size: 0.92rem;} 
+	.ps-header3-content span{padding: 0 2px;}
+	.ps-buy-package .ps-package__expire h6{font-size: 1.65rem;}
+	.ps-buy-package .ps-package__expire em,
+	.ps-buy-package .ps-buy-package__time span{font-size: 1.1rem;}
+	.ps-buy-package__time h5 {font-size: 2.15rem;}
+	.ps-profile-setting__uploadarea,
+	.ps-profile-setting__save{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ps-profile-setting__save button{margin-bottom: 5px;}
+	.ps-profile-setting__uploadarea p:nth-child(2),
+	.ps-profile-setting__uploadarea p:nth-child(4){margin: 0;}
+	.ps-profile-setting__uploadarea p:nth-child(2){margin-top: 5px;}
+	.ps-profile-setting__uploadarea svg,
+	.ps-profile-setting__uploadarea rect {height: 110px;}
+	.ps-messages__area__right,
+	.ps-messages__area__left{padding: 0 9px}
+	.ps-posted-ads__title > div{
+		flex-direction: column;
+		padding-top: 10px;
+		align-items: flex-start;
+	}
+	.ps-posted-ads__title > div .ps-description{padding: 5px 0 0 0}
+	.ps-dashboard--btn + div .ps-posted-ads__heading{
+		padding: 20px 10px 20px 20px;
+		align-items: center; 
+	}
+	.ps-posted-ads ul li > div{padding-right: 10px;}
+	.ps-posted-ads__title > h6:first-child,
+	.ps-posted-ads__status > h6:first-child,
+	.ps-posted-ads__actions > h6:first-child{
+		width: 75px;
+		padding-left: 10px;
+	}
+	.ps-sort{margin: 0 10px 0 0}
+}
+@media (max-width:479px){
+}
+@media (max-width:420px){
+	.ps-buy-package .ps-package__expire h6 {font-size: 1.55rem;}
+	.ps-buy-package .ps-package__expire em,
+	.ps-buy-package .ps-buy-package__time span {font-size: 0.98rem;}
+	.ps-buy-package__time h5 {font-size: 2.05rem;}
+	.ps-buy-package .ps-buy-package__time span{padding-top: 5px;}
+	.ps-user-product{
+		margin-right: 10px;
+		width: 100%;
+	}
+	.ps-messages__description a,
+	.ps-message-product,
+	#collapsenew1 label{
+		min-width: unset;
+		width: 100%
+	}
+	.ps-messages__area{padding: 0 0 0 9px}
+	.ps-messages__content figure + div{width: 100%}
+	.ps-messages__user__heading .ps-messages__text{padding-left: 60px;}
+	.ps-posted-ads__title > h6:first-child,
+	.ps-posted-ads__status > h6:first-child,
+	.ps-posted-ads__actions > h6:first-child{width: 75px;}
+	.ps-page .ps-button-num button:nth-child(n+2){margin-left: 5px;}
+}
+@media (max-width: 400px){
+	.ps-footer-down p{font-size: 0.75rem;}
+	.ps-footer__contact a,
+	.ps-footer p,
+	.ps-footer__link a{font-size: 0.74375rem}
+	.ps-error__description h5{font-size: 1.561rem;}
+	.ps-error__description h6{font-size: 0.98rem;}
+	.ps-header3-content h4{font-size: 1.8rem;}
+	.ps-header3-content p{font-size: 0.9rem;} 
+	.ps-current-package {padding: 29px 9px;}
+	.ps-buy-package .ps-package__expire{padding: 36px 10px;}
+	.ps-dashboard--downbtn a i,
+	.ps-dashboard--downbtn a h6{padding: 0 14px}
+	.ps-page button {min-width: 33px;}
+	.ps-package__time{flex: 0 0 50%;}
+}
+@media (max-width: 370px){
+	.ps-header3-content h4{font-size: 1.6rem;}
+	.ps-header3-content p{font-size: 0.8rem;}
+	.ps-buy-package .ps-package__expire h6 {font-size: 1.45rem;} 
+	.ps-buy-package .ps-package__expire em,
+	.ps-buy-package .ps-buy-package__time span {font-size: 0.95rem;}
+	.ps-buy-package__time h5 {font-size: 1.95rem;}
+	.ps-buy-package .ps-buy-package__time span {padding-top: 2px;}
+	.ps-messages__description p {font-size: 0.83rem;}	
+	.ps-dashboard--downbtn a i{font-size: 2.525rem;}
+	.ps-dashboard--downbtn a i,
+	.ps-dashboard--downbtn a h6{padding: 0 10px}
+	.ps-page{padding: 0 10px;}
+	.ps-page button {min-width: 32px;}
+	.ps-payments-content .ps-posted-ads__title > h6:first-child,
+	.ps-payments-content .ps-posted-ads__status > h6:first-child,
+	.ps-payments-content .ps-posted-ads__actions > h6:first-child{width: 110px}
+	nav {padding: 29px 10px;}
+}
+@media (max-width: 340px){
+	.ps-header3-content h4{font-size: 1.5rem;}
+	.ps-header3-content p{font-size: 0.75rem;} 
+	.ps-buy-package .ps-package__expire h6 {font-size: 1.35rem;}
+	.ps-buy-package .ps-package__expire em,
+	.ps-buy-package .ps-buy-package__time span {font-size: 0.92rem;}
+	.ps-buy-package__time h5 {font-size: 1.85rem;}
+	.ps-buy-package .ps-buy-package__time span {padding-top: 0px;}
+	.ps-messages__description p {font-size: 0.77rem;}	
+	.ps-page button {min-width: 29px;}
+}
+@media (min-width: 576px){
+}
+@media (min-width: 768px){}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}
